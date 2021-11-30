@@ -1,0 +1,24 @@
+.title--1 {
+    font-size: var(--font-size-lg);
+}
+
+.title--2 {
+    font-size: var(--font-size-md);
+}
+
+.color--black {
+    color: var(--text-color-black);
+}
+.color--white {
+    color: var(--text-color-white);
+}
+.color--gray {
+    color: var(--color-gray);
+}
+.color--aqua {
+    color: var(--color-aqua);
+}
+
+.bg-purple {
+    background-color: var(--color--purple);
+}
