@@ -7,10 +7,10 @@
 }
 
 .color--black {
-    color: var(--text-color-black);
+    color: var(--color-black);
 }
 .color--white {
-    color: var(--text-color-white);
+    color: var(--color-white);
 }
 .color--gray {
     color: var(--color-gray);
@@ -19,6 +19,28 @@
     color: var(--color-aqua);
 }
 
-.bg-purple {
-    background-color: var(--color--purple);
+.bg--purple {
+    background-color: var(--color-purple);
+}
+.txt--center {
+    text-align: center;
+}
+
+.img-md {
+    width: 45rem;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    height: 2rem;
+    width: 280px;
+    font-size: var(--font-size-md);
+    padding: 0.4em 0;
+}
+
+.button--primary {
+    background-color: var(--color-aqua);
+    color: var(--color-white);
+    border-radius: 40px;
 }
