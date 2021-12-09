@@ -27,7 +27,7 @@
 }
 
 .img-md {
-    width: 45rem;
+    width: 60%;
 }
 
 .button {
@@ -43,4 +43,8 @@
     background-color: var(--color-aqua);
     color: var(--color-white);
     border-radius: 40px;
+}
+
+.hidden {
+    display: none;
 }
