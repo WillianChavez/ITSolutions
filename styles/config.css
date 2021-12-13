@@ -11,9 +11,11 @@
 
     --font-family: 'Roboto', sans-serif;
     --font-size: 1rem;
-    --font-size-lg: 3.2rem;
-    --font-size-md: 1.5rem;
-    --font-size-sm: 0.8rem;
+    --font-size-lg: clamp(1rem, 10vw + 1rem, 3.2rem);
+
+    --font-size-md: clamp(0.8rem, 9vw + 1rem, 1.5rem);
+
+    --font-size-sm: clamp(0.6rem, 8vw + 1rem, 0.8rem);
 }
 
 body {
@@ -36,6 +38,7 @@ img {
     display: block;
 }
 
-h1 {
+h1,
+h2 {
     margin: 0;
 }

@@ -26,15 +26,11 @@
     text-align: center;
 }
 
-.img-md {
-    width: 60%;
-}
-
 .button {
     display: block;
     text-align: center;
     height: 2rem;
-    width: 280px;
+    width: min(100%, 280px);
     font-size: var(--font-size-md);
     padding: 0.4em 0;
 }
@@ -47,4 +43,10 @@
 
 .hidden {
     display: none;
+}
+
+.absolutely-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
