@@ -8,6 +8,8 @@ navChk.addEventListener('change', () => {
         nav.style.transform = 'translateX(0)'
     } else {
         document.body.style.overflowY = 'visible'
+
+        nav.style.transform = 'translateX(100%)'
     }
 })
 

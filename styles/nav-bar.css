@@ -29,10 +29,6 @@
     z-index: 20;
 }
 
-#navChk:checked ~ .nav {
-    transform: translateX(0);
-}
-
 .lbl-nav {
     color: white;
     position: absolute;
