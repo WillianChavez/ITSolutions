@@ -30,7 +30,6 @@
 }
 
 #navChk:checked ~ .nav {
-    display: block;
     transform: translateX(0);
 }
 
