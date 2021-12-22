@@ -1,6 +1,7 @@
 .container {
     min-width: 100vw;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 /* section 1 */
@@ -107,7 +108,7 @@
 
 .features--bottom {
     position: absolute;
-    bottom: 4rem;
+    bottom: -1rem;
     right: 0;
 }
 .front-10 {
@@ -115,10 +116,10 @@
 }
 .radial-box {
     width: 45%;
-    height: 85%;
-    background: repeating-linear-gradient(-45deg, #000000, #4d1af6 20px);
+    height: 95%;
+    background: repeating-linear-gradient(-45deg, #000000, #5e3ce7 20px);
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
 }
 
@@ -130,6 +131,108 @@
         bottom: -10rem;
     }
     .section-5 {
-        padding-bottom: 200px;
+        padding-bottom: 250px;
     }
+}
+
+/* section 7 */
+
+.article-section-7 {
+    padding: 1em;
+    transform: translate(-25rem, -10rem);
+}
+
+.radial-box-section-7 {
+    width: 350px;
+    height: 450px;
+    transform: translate(-30rem, 20rem);
+}
+
+.solid-box {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    background-color: #5e3ce7;
+    transform: translate(2rem, -6rem);
+}
+
+@media only screen and (max-width: 1150px) {
+    .radial-box-section-7 {
+        transform: translate(-6rem, 30rem);
+    }
+    .solid-box {
+        transform: translate(2rem, -6rem);
+    }
+    .article-section-7 {
+        transform: translate(0, 0);
+    }
+}
+
+/* section 8 */
+
+.article-section-8 {
+    flex-direction: row;
+    max-width: 80%;
+    margin: 10em auto;
+    flex-wrap: wrap;
+}
+
+.article__content {
+    flex-basis: 500px;
+}
+
+.title-section-8 {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.low-bar {
+    position: relative;
+}
+
+.low-bar:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 80px;
+    height: 4px;
+    background-color: var(--color-aqua);
+}
+
+/* section 9 */
+.header-section-9 {
+    max-width: 700px;
+}
+.container-contacts {
+    display: flex;
+    gap: 1em;
+    width: 80%;
+    margin: 2em auto;
+    flex-wrap: wrap;
+}
+.container-contact {
+    flex-grow: 1;
+
+    flex-basis: 200px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 50px;
+    border: 3px solid var(--color-gray);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.contant-text {
+    font-size: var(--font-size-md);
+    font-weight: 300;
+    text-align: center;
+}
+.email-text {
+    text-decoration: underline;
 }

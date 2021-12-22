@@ -65,6 +65,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.title--light {
+    font-weight: 300;
 }
 
 .front {
@@ -72,4 +76,8 @@
 }
 .back {
     z-index: -10;
+}
+
+.text--center {
+    text-align: center;
 }
