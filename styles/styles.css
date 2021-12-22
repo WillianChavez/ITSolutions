@@ -236,3 +236,14 @@
 .email-text {
     text-decoration: underline;
 }
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    height: 9rem;
+}
+
+.text-footer {
+    max-width: 500px;
+}
