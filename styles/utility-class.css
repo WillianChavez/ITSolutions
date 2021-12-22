@@ -25,6 +25,22 @@
 .txt--center {
     text-align: center;
 }
+.bg--white {
+    background-color: var(--color-white);
+}
+
+.bg--aqua {
+    background-color: var(--color-aqua);
+}
+.bg--magenta {
+    background-color: var(--color-magenta);
+}
+.bg--purple-dark {
+    background-color: var(--color-purple-dark);
+}
+.bg--purple-light {
+    background-color: var(--color-purple-light);
+}
 
 .button {
     display: block;
@@ -49,4 +65,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.front {
+    z-index: 10;
+}
+.back {
+    z-index: -10;
 }
