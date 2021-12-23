@@ -20,4 +20,3 @@ navbarItems.forEach((item) => {
         navChk.checked = false
     })
 })
-console.log(navbarItems)
